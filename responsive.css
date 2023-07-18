@@ -1,0 +1,31 @@
+@media screen and (max-width:425px) {
+    /* nav related styles */
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-column-two {
+        flex-direction: column;
+    }
+    .nav-column-two>a{
+        margin-top: 60px;
+    }
+    .nav-link {
+        flex-direction: column;
+        margin-top: 62px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-column-two {
+        margin-top: 50px;
+    }
+}
