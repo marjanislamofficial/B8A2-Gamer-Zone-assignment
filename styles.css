@@ -40,16 +40,19 @@
     font-size: 18px;
     font-weight: 500;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     gap: 32px;
-   
+
 }
-.nav-link a{
-  text-decoration: none;
+
+.nav-link a {
+    text-decoration: none;
     color: #3C354F;
     align-items: center;
 }
+
 .nav-btn {
     display: flex;
     align-items: center;
@@ -63,6 +66,101 @@
     font-size: 18px;
     font-weight: 500;
 }
-.nav-btn>img{
+
+.nav-btn>img {
     margin-left: 15px;
+}
+
+/* banner related styles */
+
+.banner-container {
+    margin: 0 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-column-one {
+    width: 901px;
+    height: 700px;
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+
+.first-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 148px;
+}
+
+.second-title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-left: 276px;
+}
+
+.banner-description>p {
+    padding: 5px;
+}
+
+.ban-btn-one {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+}
+
+.ban-btn-two {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    margin-left: 24px;
+}
+
+.ban-btn-container>.ban-btn-one {
+    display: inline;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+.banner-column-two>img{
+    margin-right: 240px;
 }
