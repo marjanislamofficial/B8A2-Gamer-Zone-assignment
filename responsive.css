@@ -1,45 +1,55 @@
-
 /* Mobile Screens */
- 
+
 @media screen and (max-width:425px) {
+
     /* nav related styles */
     .nav-container {
         flex-direction: column;
     }
+
     .nav-column-two {
         flex-direction: column;
     }
-    .nav-column-two>a{
+
+    .nav-column-two>a {
         margin-top: 60px;
     }
+
     .nav-link {
         flex-direction: column;
         margin-top: 62px;
         margin-bottom: 50px;
         text-align: center;
     }
+
     /* banner related styles */
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-column-two >img {
+
+    .banner-column-two>img {
         margin-right: 0px;
         margin-top: 76px;
         margin-bottom: 24px;
         width: 400px;
     }
+
     .banner-column-one {
         width: 425px;
     }
+
     .first-title {
         margin-top: 131px;
     }
+
     .banner-description {
         margin-left: 45px;
     }
+
     .ban-btn-container {
         margin-left: 45px;
     }
+
     .ban-btn-container>.ban-btn-one {
         margin-left: 0px;
     }
@@ -48,23 +58,27 @@
     .games-section-container {
         flex-direction: column;
     }
-    .online-games{
+
+    .online-games {
         width: 90%;
         margin-left: 20px;
     }
-    .online-games{
+
+    .online-games {
         width: 425px;
         padding: 0px;
         margin-left: 0px;
     }
-    .games-items img{
+
+    .games-items img {
         width: 100%;
-        
+
     }
-    .online-info{
-            margin-top: 0px;
-            margin-right: 0px;
-            padding-right: 20px;
+
+    .online-info {
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-right: 20px;
     }
 
 
@@ -73,16 +87,19 @@
     .play-container {
         flex-direction: column;
     }
-    .main-img>img{
+
+    .main-img>img {
         width: 80%;
         margin-left: 70px;
     }
-    .relate-img>img{
+
+    .relate-img>img {
         width: 160%;
         position: relative;
         left: 10%;
     }
-    .play-col-two{
+
+    .play-col-two {
         margin-top: 45px;
     }
 
@@ -91,6 +108,16 @@
         width: 60%;
         height: 100%;
     }
+
+    /* footer related styles */
+    .footer-second-text-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 36px;
+    }
+    .footer-icon-container {
+        gap: 85px;
+    }
 }
 
 
@@ -98,46 +125,54 @@
 /* Tablet Screen */
 
 @media screen and (min-width:426px) and (max-width:768px) {
+
     /* nav related styles */
     .nav-container {
         flex-direction: column;
     }
+
     .nav-column-two {
         margin-top: 50px;
     }
+
     /* banner related styles */
     .banner-column-one {
         width: 768px;
     }
+
     .banner-container {
         flex-direction: column-reverse;
     }
+
     .banner-description {
         margin-left: 230px;
     }
+
     .ban-btn-container>.ban-btn-one {
         margin-left: 230px;
     }
+
     .banner-column-two>img {
         margin-right: 0px;
     }
 
-        /* play section */
+    /* play section */
 
     .play-container {
         flex-direction: column;
     }
-    .play-col-two{
-            margin-left: 90px;
-            margin-top: 65px;
+
+    .play-col-two {
+        margin-left: 90px;
+        margin-top: 65px;
     }
 
-    .relate-img>img{
+    .relate-img>img {
         position: relative;
         left: 50px;
     }
 
-/* icon related styles */
+    /* icon related styles */
     .icon-items {
         width: 30%;
         height: 100%;
