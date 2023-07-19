@@ -274,8 +274,9 @@
     max-width: 1440px;
     margin: 48px auto 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 65px;
+    gap: 15px;
     
 }
 
@@ -405,6 +406,7 @@
 }
 
 .footer-text>h1 {
+    color: white;
     text-align: center;
     font-family: Work Sans;
     font-size: 45px;
