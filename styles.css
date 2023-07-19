@@ -265,7 +265,7 @@
 }
 
 .games-hover>h4 {
-    color: white;
+    color: #FF42A5;
     font-size: 25px;
     margin-top: 15px;
 }
@@ -346,7 +346,7 @@
     border: none;
     border-radius: 50px;
     background: #FFF;
-    width: 243px;
+    width: 150px;
     height: 80px;
     display: flex;
     align-items: center;
