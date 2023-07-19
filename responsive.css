@@ -59,6 +59,10 @@
         flex-direction: column;
     }
 
+    .online-title {
+        margin-top: 40px;
+    }
+
     .online-games {
         width: 90%;
         margin-left: 20px;
@@ -78,7 +82,11 @@
     .online-info {
         margin-top: 0px;
         margin-right: 0px;
-        padding-right: 20px;
+        padding-right: 0px;
+    }
+    .games-section-container {
+        flex-direction: column;
+        margin-left: 40px;
     }
 
 
@@ -155,6 +163,13 @@
     .banner-column-two>img {
         margin-right: 0px;
     }
+
+    /* online games section */
+    .games-section-container {
+        flex-direction: column;
+        margin-left: 220px;
+    }  
+
 
     /* play section */
 

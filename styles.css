@@ -274,8 +274,9 @@
     max-width: 1440px;
     margin: 48px auto 50px;
     display: flex;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: center;
+    gap: 65px;
+    
 }
 
 .games-des {
