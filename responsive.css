@@ -43,6 +43,48 @@
     .ban-btn-container>.ban-btn-one {
         margin-left: 0px;
     }
+
+    /* online games section */
+    .games-section-container {
+        flex-direction: column;
+    }
+    .online-games{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .online-games{
+        width: 425px;
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .games-items img{
+        width: 100%;
+        
+    }
+    .online-info{
+            margin-top: 0px;
+            margin-right: 0px;
+            padding-right: 20px;
+    }
+
+
+    /* play section */
+
+    .play-container {
+        flex-direction: column;
+    }
+    .main-img>img{
+        width: 80%;
+        margin-left: 70px;
+    }
+    .relate-img>img{
+        width: 160%;
+        position: relative;
+        left: 10%;
+    }
+    .play-col-two{
+        margin-top: 45px;
+    }
 }
 
 
@@ -72,5 +114,20 @@
     }
     .banner-column-two>img {
         margin-right: 0px;
+    }
+
+        /* play section */
+
+    .play-container {
+        flex-direction: column;
+    }
+    .play-col-two{
+            margin-left: 90px;
+            margin-top: 65px;
+    }
+
+    .relate-img>img{
+        position: relative;
+        left: 50px;
     }
 }

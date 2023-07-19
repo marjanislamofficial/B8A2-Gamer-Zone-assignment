@@ -161,6 +161,175 @@
     margin-top: 50px;
     margin-left: 270px;
 }
-.banner-column-two>img{
+
+.banner-column-two>img {
     margin-right: 240px;
+}
+
+/* online games section */
+.online-info {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.online-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-game-des {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.games-items {
+    width: 346px;
+    height: 400px;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 0.6s ease ease-out;
+}
+
+.games-hover {
+    background-color: #00000081;
+    width: 346px;
+    height: 400px;
+    padding-top: 50%;
+    border-radius: 16px;
+    border: 5px solid #FF42A5;
+    text-align: center;
+
+}
+
+.games-items:hover {
+    transform: translateY(05px);
+}
+
+.games-items:hover::before {
+    opacity: 1;
+}
+
+.games-items:hover .games-hover {
+    opacity: 1;
+    transform: translateX(0);
+    left: 50%;
+}
+
+.games-items::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.games-items img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fa-regular {
+    color: white;
+    font-size: 30px;
+}
+
+.games-hover>h4 {
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.games-section-container {
+    max-width: 1440px;
+    margin: 48px auto 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.games-des {
+    margin-top: 24px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* play instantly section */
+.main-img {
+    position: relative;
+}
+
+.relate-img {
+    position: absolute;
+    top: 55%;
+    right: 75%;
+}
+
+.play-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.play-title {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.play-title-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-des {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
 }
