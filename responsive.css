@@ -85,6 +85,12 @@
     .play-col-two{
         margin-top: 45px;
     }
+
+    /* icon related styles */
+    .icon-items {
+        width: 60%;
+        height: 100%;
+    }
 }
 
 
@@ -129,5 +135,11 @@
     .relate-img>img{
         position: relative;
         left: 50px;
+    }
+
+/* icon related styles */
+    .icon-items {
+        width: 30%;
+        height: 100%;
     }
 }
